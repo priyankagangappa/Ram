@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Task.TC_Tasks_001_Test">
+      <class name="Task.TC_Tasks_002_Test">
         <methods>
-          <include name="BrowserTeardown"/>
           <include name="createTask"/>
+          <include name="BrowserTeardown"/>
           <include name="BrowserSetup"/>
         </methods>
-      </class> <!-- Task.TC_Tasks_001_Test -->
+      </class> <!-- Task.TC_Tasks_002_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
